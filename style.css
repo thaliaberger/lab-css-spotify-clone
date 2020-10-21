@@ -1,0 +1,170 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 15px 20px;
+  position: fixed;
+  background-color: #fff;
+  width: 1250px;
+}
+
+.logo {
+  width: 180px;
+}
+
+nav ul {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  color: #1a1a1a;
+}
+
+header {
+  background-image: url("images/landing.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  height: 700px;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+header p {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+}
+
+.first-p {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.second-p {
+  position: absolute;
+  top: 74%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.whats {
+  font-size: 35px;
+  border-bottom: 3px solid #00b172;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 40px 470px;
+}
+
+.songs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.songs > article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  padding: 10px 30px;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.songs p {
+  text-align: center;
+}
+
+.songs h3 {
+  color: #00b172;
+  font-weight: bold;
+}
+
+.songs img {
+  width: 110px;
+}
+
+.kanye {
+  display: flex;
+  justify-content: center;
+  background-color: #00b172;
+  color: white;
+  margin: 30px;
+  font-size: 1.3rem;
+  padding-bottom: 100px;
+}
+
+.icon-white {
+  width: 130px;
+  padding: 300px 150px 0 0;
+}
+
+.app {
+  width: 350px;
+  padding-top: 100px;
+}
+
+.kanye h2 {
+  border-bottom: 3px solid white;
+  width: 430px;
+}
+
+.kanye-1 p {
+  width: 350px;
+}
+
+.music h3 {
+  padding-top: 15px;
+}
+
+.kanye-1 {
+  padding-top: 50px;
+}
+
+.kanye-1 h3 {
+  padding-top: 20px;
+}
